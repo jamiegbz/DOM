@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Assignment</title>
+</head>
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+<body>
+    
+    <!--title of the page-->
+    <h2 class="text-center">Disney Character </h2>
+
+    <!--table has a class that styles the table
+    table has 4 headers-->
+    <table class="table table-primary">
+        <thead>
+            <th>#</th>
+            <th>Favorite Disney Character</th>
+            <th>Favorite Show</th>
+            <th>First Name</th>
+        </thead>
+        <!--table body has an id of tbdody-->
+       <tbody id="tBody">
+        <tr>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+       </tbody>
+    </table>
+
+    <!--form so user can add info 
+    lable has a class of form-label
+    input has a type of text and class of form-control
+    all input has an id of disney character, show and first name-->
+    <form>
+        <div>
+            <label  class="form-label">
+                Favorite Disney Character:
+            </label>
+            <input type="text" class="form-control" id="disneyCharacter">
+        </div>
+        <div>
+            <label class="form-label">
+                Favorite Show:
+            </label>
+            <input type="text" class="form-control" id="show">
+        </div>
+        <div>
+            <label class="form-label" >
+                First Name:
+            </label>
+            <input type="text" class="form-control" id="firstName">
+        </div>
+       
+
+        <button type="submit" class=" btn btn-outline-info" id="button">Submit</button>
+    </form>
+
+
+<!--script tag -->
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
